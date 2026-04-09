@@ -95,5 +95,7 @@ Open http://localhost:5173 in your browser.
 ## 👨‍💻 Author
 
 Om Sharma
+
 <br>
 SafariX – AI Trip Planner
+
