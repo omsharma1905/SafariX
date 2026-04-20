@@ -106,7 +106,6 @@ function Header() {
         )}
       </div>
 
-      {/* ---- SIGN IN DIALOG ---- */}
       <Dialog open={openDialog} onOpenChange={setOpenDialog}>
         <DialogContent>
           <DialogHeader>
