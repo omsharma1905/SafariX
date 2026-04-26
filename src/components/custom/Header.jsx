@@ -109,7 +109,7 @@ function Header() {
       <Dialog open={openDialog} onOpenChange={setOpenDialog}>
         <DialogContent>
           <DialogHeader>
-            <img src="/logo.png" className="mx-auto mb-4 h-10" />
+            <img src="/logo" className="mx-auto mb-4 h-10" />
 
             <DialogTitle className="text-center text-lg font-bold">
               Sign In With Google
