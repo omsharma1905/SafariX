@@ -30,7 +30,6 @@ function Viewtrip() {
 
   return (
     <div className="px-5 sm:px-10 md:px-20 lg:px-32 xl:px-44 py-10">
-      {/* Information Section */}
       <InfoSection trip={trip} />
 
       {/* Recommended Hotels */}
