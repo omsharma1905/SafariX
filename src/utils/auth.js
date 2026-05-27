@@ -11,7 +11,6 @@ export const validateUserSession = async () => {
   const userRef = doc(db, "users", user.email)
   const userSnap = await getDoc(userRef)
 
-  // User deleted from DB → force logout
   if (!userSnap.exists()) {
     localStorage.removeItem("user")
     return false
