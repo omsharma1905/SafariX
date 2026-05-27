@@ -4,7 +4,6 @@ import { db } from "@/service/firebaseConfig";
 export const validateUserSession = async () => {
   const user = JSON.parse(localStorage.getItem("user"))
 
-  // No local user → not logged in
   if (!user?.email) {
     return false
   }
