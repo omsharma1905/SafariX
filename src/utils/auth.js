@@ -8,7 +8,6 @@ export const validateUserSession = async () => {
     return false
   }
 
-  // Check Firestore
   const userRef = doc(db, "users", user.email)
   const userSnap = await getDoc(userRef)
 
